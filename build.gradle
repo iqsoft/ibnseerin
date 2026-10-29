@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.iqsoft.ibnseerin'; compileSdk 35
+    defaultConfig { applicationId 'com.iqsoft.ibnseerin'; minSdk 23; targetSdk 35; versionCode 1; versionName '1.0' }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            if (variant.name == "release") {
+                outputFileName = "IbnSeerinDreamDictionary.apk"
+            }
+        }
+    }
+
+}

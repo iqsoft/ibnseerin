@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ibn Seerin Dream Dictionary</string>
+    <string name="about_title">About</string>
+    <string name="about_subtitle">According to Islamic Traditions</string>
+    <string name="developer_title">Developer</string>
+    <string name="developer_name">Prof. Mohamed Iqbal Pallipurath</string>
+    <string name="developer_position">CEO, Web Developer</string>
+    <string name="developer_organization">Iqsoft Software Consultants, Vattamkulam, Malappuram, Kerala, India</string>
+    <string name="developer_website">www.iqsoft.in</string>
+    <string name="copyright_text">Copyright 2026 Mohamed Iqbal Pallipurath</string>
+    <string name="about_description">A searchable digital edition of Ibn Seerin Dictionary of Dreams, according to Islamic Traditions.</string>
+    <string name="about_disclaimer">This application is intended as a reference tool.</string>
+</resources>
